@@ -1,4 +1,7 @@
-/*!
+/* @import "node_modules/@glidejs/glide/src/assets/sass/glide.core";
+@import "node_modules/@glidejs/glide/src/assets/sass/glide.theme"; */
+
+/*
  * Start Bootstrap - Agency v5.2.2 (https://startbootstrap.com/template-overviews/agency)
  * Copyright 2013-2019 Start Bootstrap
  * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-agency/blob/master/LICENSE)
@@ -597,10 +600,10 @@ header.masthead .intro-text .intro-heading {
 
 div.email{
   color: #5275ff;
-  display: flex;
   font-size: 20px;
   font-weight: bolder;
-  justify-content: center;
+  padding-top: 3vh;
+  text-align: center;
 }
 
 div.ga-profile{
@@ -614,7 +617,6 @@ a:hover {
 
 div.opacity {
   background-color: rgba(255, 255, 255, .7);
-  padding: 10px;
 }
 
 section#contact {
