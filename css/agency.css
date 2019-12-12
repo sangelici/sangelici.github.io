@@ -761,15 +761,16 @@ ul.social-buttons li a:active, ul.social-buttons li a:focus, ul.social-buttons l
   -ms-user-select:none
 }
 
-.glide__arrows{
+div.glide__arrows{
   -webkit-touch-callout:none;
   user-select:none
+  text-align: center;
 }
 
 .glide__bullets{
   -webkit-touch-callout:none;
   user-select:none
-} 
+}
 
 .glide--rtl{direction:rtl}
 
