@@ -32,7 +32,7 @@ a:hover {
 }
 
 .text-primary {
-  color: #0D65E5 !important;
+  color: #3275FF !important;
 }
 
 h1,
@@ -130,7 +130,7 @@ img::-moz-selection {
   text-transform: uppercase;
   color: white;
   border: 0;
-  background-color: #0D65E5;
+  background-color:  #0D65E5;
   font-family: 'Montserrat', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
 }
 
@@ -154,7 +154,7 @@ img::-moz-selection {
 }
 
 #mainNav .navbar-nav .nav-item .nav-link.active, #mainNav .navbar-nav .nav-item .nav-link:hover {
-  color: #0D65E5;
+  color: #fff;
 }
 
 @media (min-width: 992px) {
