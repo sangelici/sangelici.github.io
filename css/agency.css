@@ -24,15 +24,15 @@ p {
 }
 
 a {
-  color: #72aaff;
+  color: #0D65E5;
 }
 
 a:hover {
-  color: #72aaff;
+  color: #0D65E5;
 }
 
 .text-primary {
-  color: #72aaff !important;
+  color: #0D65E5 !important;
 }
 
 h1,
@@ -51,7 +51,7 @@ h6 {
 
 .page-section h2.section-heading {
   font-size: 40px;
-  letter-spacing: 4px;
+  letter-spacing: 10px;
   margin-top: 0;
   margin-bottom: 15px;
 }
@@ -73,7 +73,7 @@ h6 {
 }
 
 ::-moz-selection {
-  background: #72aaff;
+  background: #0D65E5;
   text-shadow: none;
 }
 
@@ -105,13 +105,13 @@ img::-moz-selection {
 }
 
 .btn-primary {
-  background-color: #5275ff;
-  border-color: #72aaff;
+  background-color: #0D65E5;
+  border-color: #1178ED;
 }
 
 .btn-primary:active, .btn-primary:focus, .btn-primary:hover {
   background-color: #5882ff !important;
-  border-color: #5882ff !important;
+  border-color: #0D65E5 !important;
   color: white;
 }
 
@@ -130,7 +130,7 @@ img::-moz-selection {
   text-transform: uppercase;
   color: white;
   border: 0;
-  background-color: #72aaff;
+  background-color: #0D65E5;
   font-family: 'Montserrat', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
 }
 
@@ -154,7 +154,7 @@ img::-moz-selection {
 }
 
 #mainNav .navbar-nav .nav-item .nav-link.active, #mainNav .navbar-nav .nav-item .nav-link:hover {
-  color: #72aaff;
+  color: #0D65E5;
 }
 
 @media (min-width: 992px) {
@@ -456,7 +456,7 @@ header.masthead .intro-text .intro-heading {
   color: white;
   border: 7px solid #e9ecef;
   border-radius: 100%;
-  background-color: #72aaff;
+  background-color: #0D65E5;
 }
 
 .timeline > li .timeline-image h4 {
@@ -599,7 +599,7 @@ header.masthead .intro-text .intro-heading {
 }
 
 div.email{
-  color: #5275ff;
+  color: white;
   font-size: 20px;
   font-weight: bolder;
   padding-top: 3vh;
@@ -615,20 +615,21 @@ a:hover {
   text-decoration: none;
 }
 
-div.opacity {
+/* div.opacity {
   background-color: rgba(255, 255, 255, .7);
-}
+} */
 
 section#contact {
   background-color: #212529;
-  background-image: url("../img/contact.jpg");
+  background-image: url("../img/portfolio/blue-contact.jpeg");
   background-repeat: no-repeat;
   background-position: center;
-  background-size: 80% 120%;
+  background-size: 100% 100%;
 }
 
 section#contact .section-heading {
   color: #fff;
+  letter-spacing: 10px;
 }
 
 section#contact .form-group {
@@ -649,7 +650,7 @@ section#contact .form-group textarea.form-control {
 }
 
 section#contact .form-control:focus {
-  border-color: #72aaff;
+  border-color:	#0D65E5;
   box-shadow: none;
 }
 
@@ -715,7 +716,7 @@ ul.social-buttons li a {
 }
 
 ul.social-buttons li a:active, ul.social-buttons li a:focus, ul.social-buttons li a:hover {
-  background-color: #72aaff;
+  background-color: #1178ED;
 }
 
 /* glider */
